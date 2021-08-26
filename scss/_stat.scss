@@ -1,0 +1,47 @@
+.stat {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px 0px;
+	margin: 0 -10px;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+
+		&-icon {
+			flex: 0 0 80px;
+			width: 80px;
+			height: 80px;
+			border-radius: 100%;
+			background-color: rgba(var(--white-rgb), 0.1);
+			background-repeat: no-repeat;
+			background-position: center center;
+
+			&-01 {
+				background-image: url("../img/icons/barChart.svg");
+			}
+			&-02 {
+				background-image: url("../img/icons/person.svg");
+			}
+			&-03 {
+				background-image: url("../img/icons/earth.svg");
+			}
+		}
+		&-text {
+			font-size: 18px;
+			line-height: 150%;
+			letter-spacing: 0.01em;
+			color: var(--light-grey);
+			margin-left: 24px;
+		}
+		&-text span {
+			display: block;
+			color: var(--white);
+			font-weight: bold;
+			font-size: 40px;
+			line-height: 1.6;
+		}
+	}
+}

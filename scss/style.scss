@@ -1,0 +1,54 @@
+@import "variables";
+@import "text";
+@import "calc";
+@import "header";
+@import "stat";
+@import "sectionMain";
+@import "light-page";
+@import "calc";
+@import "crypto";
+
+body {
+	background-color: var(--dark);
+	color: var(--white);
+	font-family: var(--font);
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+button,
+a {
+	color: inherit;
+}
+button {
+	border: none;
+}
+li {
+	list-style: none;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.btn {
+	border-radius: 32px;
+	padding: 18px 29px;
+	background-color: var(--blue);
+}
+input:focus,
+input:active {
+	outline: none;
+}
+select:focus,
+select:active {
+	outline: none;
+}
+.container {
+	max-width: 1202px;
+	padding: 0 15px;
+	margin: 0 auto;
+}

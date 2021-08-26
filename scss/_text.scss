@@ -1,0 +1,18 @@
+.text {
+	max-width: 622px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 119px 0 0 0;
+	&__title {
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 150%;
+		margin-bottom: 22px;
+	}
+	&__description {
+		font-size: 18px;
+		line-height: 1.7;
+		color: var(--light-grey);
+		margin-bottom: 64px;
+	}
+}
